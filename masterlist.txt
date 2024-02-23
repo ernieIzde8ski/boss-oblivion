@@ -848,6 +848,7 @@ Permanent Effects from Quest Items fix Merge.esp
   SAY: Outdated. Update to newest version of Permanent Effects from Quest Items fix.
 Dion MS38 Package Fix.esp
 UlrichVoiceFix.esp
+GuardInfamyGreetingFix.esp
 //========================
 ENDGROUP: Post UOP Fixes
 
@@ -926,6 +927,7 @@ Shivering OOO.esp
 SI Public Music.esp
   TAG: {{BASH: C.Music}}
 LightningReduced - Sh_Isles.esp
+SICitiesExpanded.esp
 
 DLCShiveringIsles Vwalk.esp
   TAG: {{BASH: Actors.Anims, NoMerge}}
@@ -1490,6 +1492,7 @@ DungeonAMB.esp
 HBM.esp
 Idle Dialogue.esp
   IF CHECKSUM("Idle Dialogue.esp", F3DDD964) DIRTY: 5 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+Immersive Character and Dialogue Expansion.esp
 Louder Nirnroot Sound.esp
 Louder Nirnroots.esp
 Louder Nirnroot.esp
@@ -1501,6 +1504,7 @@ Louder Nirns.esp
 Symphony of Violence.esp
 Echo_ChapelChant.esp
   IF CHECKSUM("Echo_ChapelChant.esp", 1463180E) DIRTY: 2 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+Louder Chapel Bells.esp
 AmbientTownSounds.esp
   IF CHECKSUM("AmbientTownSounds.esp", 130E1D68) DIRTY: 3 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Ambient Inns, 0.1.esp
@@ -1541,6 +1545,7 @@ Enhanced Cyrodiil - Daggerfallesque Sound Sequences.esp
 Elves Of Lineage II Female Anime Voice.esp
 Diverse Voices (Vanilla).esp
 Diverse Voices.esp
+ModsAwareMaiq.esp
 
 Oblivion Sound Sets.esp
 PCSounds.esp
@@ -3497,6 +3502,7 @@ Dynamic Door Knocking.esp
 DynamicMusicSystem.esp
 Enhanced Seasons.esp
 ExPCB.esp
+Extended UI.esp
 
 FDD.esp
 ForgeEquipment.esp
@@ -3598,6 +3604,7 @@ OblivionReloaded.esp
 OblivionReloadedArenaCombat.esp
 ORFlare.esp
 OblivionReloaded.Weather.esp
+ORC.esp
 P-Froggys Automatic NPC-Respawner (1).esp
 P-Froggys Automatic NPC-Respawner (2).esp
 P-Froggys Automatic NPC-Respawner (3).esp
@@ -3865,6 +3872,7 @@ VileLair_MOBS.esp
 P1DseeYouSleep - DLCVileLair.esp
 See You Sleep DLL - DLCVileLair.esp
   IF FILE("P1DseeYouSleep.esp") ERROR: Do not use with mmmpld's original See You Sleep mod or any of its compatibility patches.
+CRP - Vile Lair Fully Voiced Overhaul.esp
 
 DLCMehrunesRazor.esp
   IF CHECKSUM("DLCMehrunesRazor.esp", CB413740) || IF CHECKSUM("DLCMehrunesRazor.esp", 78FDD06E) DIRTY: 21 ITM, 15 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
@@ -13472,6 +13480,7 @@ The Archer's Paradox Upgrades.esp
 The Ayleid Steps.esp
   IF CHECKSUM("The Ayleid Steps.esp", B0311481) DIRTY: 0 ITM, 1 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
   IF CHECKSUM("The Ayleid Steps.esp", 6669B5B6) DIRTY: 0 ITM, 1 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+The Ayleid Steps - Voiced Addon.esp
 The Ayleid Steps Vwalk.esp
   TAG: {{BASH: Actors.Anims, NoMerge}}
 The Ayleid Steps - Patches.esp
@@ -14188,6 +14197,9 @@ GoldenCrest-BattlehornUpgraded Patch.esp
 TonasModStore-BattlehornUpgraded Patch.esp
 VHB-BattlehornUpgraded patch.esp
 Unique Artifacts for Unique People.esp
+Unique Artifacts for Unique People - Distribution.esp
+UAUP - OOO Patch.esp
+UAUP - OMOBS Patch.esp
 //================
 ENDGROUP: DLC 3
 
@@ -14468,6 +14480,7 @@ DBSQR - Knights of the Nine.esp
 OWAnvilChapelRestored.esp
 PONLights.esp
 PONWindows.esp
+Inius Colus Gives Speechcraft Training Quest.esp
 
 Better Unique Items.esp
   TAG: {{BASH: Graphics}}
@@ -16594,6 +16607,7 @@ ImpeREALFortsHammerfellpatch.esp
 RST+Unique Forts Patch.esp
 Eastbrink-ImpeREALForts Patch.esp
 Eastbrink-Silverfish-ImpeREALForts Patch.esp
+Better Forts.esp
 
 UL II Immersive Prison Sewer exit.esp
   IF CHECKSUM("UL II Immersive Prison Sewer exit.esp", 26B755F4) DIRTY: 11 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
@@ -16889,6 +16903,8 @@ ENDGROUP: Post UL, Pre BC
 BEGINGROUP: Unique Landscapes V2 Compatibility Patches
 //------------------------------------------------------
 //
+ULE UnofficialOblivionPatch-CorboloRiver patch.esp
+
 ULE WAC-DarkForest patch.esp
 ULE LostSpires-DarkForest patch.esp
 
@@ -17048,6 +17064,7 @@ ULS WaterlilyCottage-AncientYews Patch.esp
 ULM WaterlilyCottage-AncientYews Patch.esp
 ULE ZSkeletonHorse-AncientYews patch.esp
 ULS OblivionUncut-AncientYews patch.esp
+ULM OblivionUncut-AncientYews patch.esp
 ULS DarkBrotherhoodChronicles-AncientYews patch.esp
 ULS BetterDaedricShrinesVaermina-AncientYews patch.esp
 ULM BetterDaedricShrinesVaermina-AncientYews patch.esp
@@ -17908,6 +17925,8 @@ AutoRun.esp
 Auto shield equip-unequip.esp
 AutoTorch_1C.esp
 Auto Update Leveled Items And Spells.esp
+  IFNOT FILE("Auto Update Leveled Items And Spells - Script Patch.esp") SAY: A patch is available: "https://www.nexusmods.com/oblivion/mods/52229?tab=description"
+Auto Update Leveled Items And Spells - Script Patch.esp
 Axebane_Hunters25.esp
   IF FILE("Mart's Monster Mod - Hunting & Crafting.esp") SAY: May break MMM Hunting and Crafting. Not fully tested.
 AXR Elixirs (No Testing Chest).esp
@@ -22128,6 +22147,9 @@ Better Races Powers.esp
 Vanilla_Oblivion_Skill_Rates.esp
 Vanilla Oblivion Skill Rates-6548.esp
 LRM_Generic.esp
+Practical Training.esp
+  DIRTY: Do not clean. "Dirty" edits are intentional and required for the mod to function.
+Trainers of Cyrodiil.esp
 Master Trainers Upgraded.esp
 
 AdvancedMercantileLeveling.esp
@@ -24847,6 +24869,8 @@ OOOShiveringIsles.esp
   SAY: If using OOOShiveringIsles with Oblivion Character Overhaul, disable the "R.Head" Bash Tag from OOOShiveringIsles.esp to avoid conflicts.
 OOOSIArcheryPatch.esp
   TAG: {{BASH: NoMerge}}
+OOOShiveringIsles_ArcheryPatch.esp
+  TAG: {{BASH: NoMerge}}
 OOOSI-Map MarkerOverhaul SI-patch.esp
 OOO Improvements and Additions - Shivering Isles.esp
 //========================
@@ -26890,6 +26914,7 @@ MWakeMap.esp
 MergedMaps.esp
 Elsweyr Color Map.esp
 Colored Map for Elsweyr 1.1.esp
+SEMapHD+.esp
 tamriel_50_res.esp
 TamrielWorldspaceCompleteWorldMap.esp
 TWMP_Tamriel_Ingame_ Map.esp
@@ -26912,5 +26937,3 @@ FRLODToggleBasic.esp
 //===========================
 ENDGROUP: LOD Togglers
 ENDGROUP: Post Bashed Patch
-
-
