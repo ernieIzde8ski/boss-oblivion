@@ -17981,6 +17981,11 @@ Better_Blade_Equipment.esp
 Better Bookshelves In Buyable Houses.esp
 BetterCoins.esp
 
+Better Feather.esp
+  IF FILE("Better Feather plus Merchants.esp") WARN: Use 'Better Feather.esp' or 'Better Feather plus Merchants.esp', but not both together.
+Better Feather plus Merchants.esp
+  IF FILE("Better Feather.esp") WARN: Use 'Better Feather.esp' or 'Better Feather plus Merchants.esp', but not both together.
+
   // Needs to load after OWCND-Dungeons.esp but before Better Dungeons.esp and SnusDungeons.esp
 Expanded Dungeons - Play Nice Edition.esp 
 Expanded Dungeons - Play Even Nicer Edition.esp
