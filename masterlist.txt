@@ -3613,7 +3613,12 @@ P-Froggys Automatic NPC-Respawner.esp
 P1DlookHereYou.esp
 P1DmenuEscape.esp
 PCB.esp
-Potion Unlimiter-1948.esp
+Potion Limits Scale - Linear.esp
+  SAY: Use only one plugin from this mod.
+Potion Limits Scale - Quadratic.esp
+  SAY: Use only one plugin from this mod.
+Potion Limits Scale - Unlimited.esp
+  SAY: Use only one plugin from this mod.
 Put Me In My Place - PlayerInSEWorld.esp
 Purge Cell Buffers - Cell Change.esp
 Purge Cell Buffers - Loading.esp
@@ -21468,7 +21473,14 @@ Potion Mixer.esp
 PotionPurify_en.esp
 Potion_Sorter-2081.esp
   TAG: {{BASH: Names}}
+Potion Unlimiter-1948.esp
 Potion_Unlimiter-1948.esp
+Potion Limits Scale - Linear.esp
+  SAY: Use only one plugin from this mod.
+Potion Limits Scale - Quadratic.esp
+  SAY: Use only one plugin from this mod.
+Potion Limits Scale - Unlimited.esp
+  SAY: Use only one plugin from this mod.
 Alchemy Expansions - Essence Extracter.esp
 Alchemy Expansions - Poison Combiner.esp
 Alchemy Expansions - Poison Maker.esp
