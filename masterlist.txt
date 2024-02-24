@@ -3541,6 +3541,7 @@ kuerteeSittableRocks.esp
 
 lBookworm.esp
 lBookwormBackup.esp
+lDisplay Skill Perk Effects.esp
 lGet rid of small Souls.esp
 lHudless Screenshot Key.esp
 
@@ -6682,6 +6683,7 @@ UmarilsArmor.esp
 Umarils Armor Separate.esp
 Umarils Armor Separate - EV.esp
 Umarils Armor Separate - RU.esp
+Uncapped Skeleton Key OBSE.esp
 Underwear HGEC placed.esp
 Underworld Armor.esp
 RUS_Underworld Armor.esp
@@ -21434,6 +21436,8 @@ TFE - Restore Cost.esp
   SAY: Not needed if using LAME.
 TFE Magic Costs.esp
 Diverse Effect Icons.esp
+Diverse Effect Icons OBSE.esp
+  IF ACTIVE("Diverse Effect Icons.esp") WARN: Disable 'Diverse Effect Icons.esp'
 PMSneakySummons-ForVanilla.esp
   SAY: Do not use with PMSneakySummonCompatibility.esp,
   SAY: to have magic overhaul features move before magic overhauls (but then
@@ -22393,9 +22397,10 @@ CoH ObXP Patch.esp
 LoversOblivionXP.esp
 Oblivion XP Character Generation.esp
 
-//These two need to load after Oblivion XP.esp.
+// These three need to load after Oblivion XP.esp.
 GalerionLeveling-v11.esp
 All+5AttributeModifiers.esp
+Max Ability Modifiers-2455.esp
 
 DMRequirements.esp
   SAY: Oudated. Update to version 1.4+.
