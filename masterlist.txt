@@ -15281,6 +15281,7 @@ Unique Forts Gold Coast.esp
 BEGINGROUP: Better Forts
 //-----------------------------------------------
 //
+Better Forts.esp
 Unique Forts Fort Aurus.esp
 Unique Forts Fort Blackboot.esp
 Unique Forts Fort Carmala.esp
@@ -16607,7 +16608,6 @@ ImpeREALFortsHammerfellpatch.esp
 RST+Unique Forts Patch.esp
 Eastbrink-ImpeREALForts Patch.esp
 Eastbrink-Silverfish-ImpeREALForts Patch.esp
-Better Forts.esp
 
 UL II Immersive Prison Sewer exit.esp
   IF CHECKSUM("UL II Immersive Prison Sewer exit.esp", 26B755F4) DIRTY: 11 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
