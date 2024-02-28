@@ -17361,7 +17361,7 @@ ULS MannimarcoResurrection-EasternPeaks patch.esp
 ULM MannimarcoResurrection-UniqueLandscapes patch.esp
 
 //--------------------------
-ENDGROUP: Post UL, Pre BC
+ENDGROUP: Unique Landscapes V2 Compatibility Patches
 
 BEGINGROUP: New Cities Series
 //------------------------------
