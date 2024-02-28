@@ -3449,6 +3449,7 @@ BEGINGROUP: Load Order Independent Mods
 77_Umpa_Mp3_Player_obse.esp
 
 ANBToggleGrab.esp
+Area Harvest.esp
 Ash control.esp
 AutoEquip.esp
   REQ: OBSE
@@ -16020,7 +16021,7 @@ UL Beaches of Cyrodiil - DMwardrobe patch.esp
   IF CHECKSUM("UL Beaches of Cyrodiil - DMwardrobe patch.esp", C08127BA) DIRTY: 4 ITM, 2 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
   SAY: Master records needs updating from "DMwardropemerged no enchant.esp" to "DMwardropemergednoenchant.esp"
 IslandPalace-LostCoast Patch.esp
- 
+
 BEGINGROUP: HM2
 //...............
 HentaiMania2.esp
@@ -16904,6 +16905,68 @@ OotD_FAR_Patch.esp
   IF FILE("xulJerallGlacier.esp") WARN: Use the UL Jerall Glacier version of this patch!
 OotD_ULJerall_TheNecromancer_Patch.esp
   IF FILE("xulJerallGlacier.esp") WARN: Use the UL Jerall Glacier version of this patch!
+
+Qarl's Harvest - Full UL Patch.esp
+  SAY: Use only one UL patch from this mod.
+Qarl's Harvest - XulChorrolHinterland patch.esp
+  SAY: Use only one UL patch from this mod.
+Qarl's Harvest - XulDarkForest patch.esp
+  SAY: Use only one UL patch from this mod.
+
+Qarls Harvest for Unique Landscapes.esp
+  IFNOT FILE("Unique Landscapes.esp") WARN: Use the individual patches with the individual mods!
+Qarls Harvest for xUL Ancient Redwoods (7).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Ancient Yews (33).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Arrius Creek (10).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Aspen Wood (6).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Blackwood Forest (14).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Bravil Barrowfields (166).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Brena River Ravine (13).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Cheydinhal Falls (29).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Chorrol Hinterland (9).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Cliffs Of Anvil (9).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Cloudtop Mountains (162).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Entius Gorge (4).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Fallenleaf Everglade (16).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Imperial Isle (10).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Jerall Glacier (16).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Lush Woodlands (1).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Panther River (39).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL River Ethe (34).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Silverfish River Valley (28).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Skingrad Outskirts (5).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Snowdale (32).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL Stendarr Valley (14).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL The Dark Forest (7).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL The Eastern Peaks (191).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL The Heath (6).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
+Qarls Harvest for xUL The LostCoast (2).esp
+  IF FILE("Unique Landscapes.esp") WARN: Use 'Qarls Harvest for Unique Landscapes.esp' with 'Unique Landscapes.esp'!
 //--------------------------
 ENDGROUP: Post UL, Pre BC
 
@@ -17749,6 +17812,7 @@ NoHFailure_HFlora_SE.esp
 Harvest [Flora] - DLCVileLair.esp
 Harvest [Flora] - DLCFrostcrag.esp
   IF CHECKSUM("Harvest [Flora] - DLCFrostcrag.esp", ADFEEDB5) ||  IF CHECKSUM("Harvest [Flora] - DLCFrostcrag.esp", 67EB4689) DIRTY: 2 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+Area Harvest Harvest Flora Patch.esp
 Basement for Cobl - My Custom Plants Show Harvested Status.esp
   REQ: Harvest Flora
 Pitcher Plant and Lily Ingredients.esp
@@ -17979,6 +18043,8 @@ Banes Guilds United Stalhrim Village patch.esp
 Banes Guilds United Integration patch.esp
 Banes Guilds United LAME patch.esp
 Barter Gold Mod-9287.esp
+BasicHarvestFilterPatch.esp
+  TAG: {{BASH: Deactivate, Filter, Scripts}}
 
 Better_Amelion_Gear.esp
 betterArena.esp
@@ -25658,7 +25724,25 @@ Oblivifall - Losing My Religion BC Leyawiin.esp
 Oblivifall - Losing My Religion BC Skingrad.esp
 Better Cities Chorrol - Oblivifall Losing My Religion.esp
 Better Cities Skingrad - Oblivifall Losing My Religion.esp
+
+Qarl's Harvest - Closed BC.esp
+  SAY: Use only one BC patch from this mod.
+Qarl's Harvest - Closed BC + UL patch.esp
+  SAY: Use only one BC patch from this mod.
+  SAY: Use only one UL patch from this mod.
 Qarl's Harvest - Full BC+UL patch.esp
+  SAY: Use only one UL patch from this mod.
+  SAY: Use only one UL patch from this mod.
+Qarl's Harvest - Full BC + UL patch.esp
+  SAY: Use only one BC patch from this mod.
+Qarl's Harvest - Full BC.esp
+  SAY: Use only one BC patch from this mod.
+Qarl's Harvest - Open BC + UL patch.esp
+  SAY: Use only one BC patch from this mod.
+  SAY: Use only one UL patch from this mod.
+Qarl's Harvest - Open BC.esp
+  SAY: Use only one BC patch from this mod.
+
 SMChorrol - BC Patch.esp
 //----------------------------------
 ENDGROUP: BC Compatibility Patches
