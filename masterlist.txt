@@ -1493,6 +1493,8 @@ HBM.esp
 Idle Dialogue.esp
   IF CHECKSUM("Idle Dialogue.esp", F3DDD964) DIRTY: 5 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Immersive Character and Dialogue Expansion.esp
+Louder Nirnroots v1.1 Has Value.esp
+Louder Nirnroots v1.1 Has No Value.esp
 Louder Nirnroot Sound.esp
 Louder Nirnroots.esp
 Louder Nirnroot.esp
@@ -3449,6 +3451,7 @@ BEGINGROUP: Load Order Independent Mods
 77_Umpa_Mp3_Player_obse.esp
 
 ANBToggleGrab.esp
+Ansol and Hewie.esp
 Area Harvest.esp
 Ash control.esp
 AutoEquip.esp
@@ -3573,6 +3576,7 @@ MotionBlur.esp
 Musical Immersion 1.0.esp
 MUTE.esp
 MyPersonalArmy.esp
+MysticismAutoRechargesWeapons.esp
 
 NameThatHorse.esp
   REQ: OBSE v0017+, Pluggy 122+.
@@ -3644,6 +3648,7 @@ SimpleHUDClock.esp
 VipCxj_RadarSystem.esp
   REQ: OBSE, MenuQue.
 SimpleSprinting.esp
+Simple Set Bonuses.esp
 Skill Diary Redone.esp
   REQ: OBSE
 skycaptains NPCFF.esp
@@ -14382,6 +14387,7 @@ Knights - Unofficial Patch.esp
 Correctif Knights.esp
 [cq]QuestsoftheNine.esp
 InfamyKnights.esp
+Knights Infamy.esp
 Oblivion Content Restoration Project -- Knights.esp
 priestessrobespatchknights.esp
 PSMainQuestDelayer -- Knights.esp
@@ -19190,6 +19196,7 @@ QuestItemFlagRemover.esp
 QuestItemMessage.esp
 Questless Ring of the Vipereye.esp
 Quest NPCs Run.esp
+Quest NPCs Run - Filter Patch for Mods.esp
 Q - Gem Value Modifier - Realistic v1.1.esp
   TAG: {{BASH: Stats}}
 QuiltsAndWoolBlankets.esp
@@ -22347,6 +22354,7 @@ MercantileProgressionFix.esp
 OBF Mercantile Fix.esp
 Smarter Mercantile Leveling - Multi.esp
 tweaked_smarter_mercantile.esp
+Mercantile Fix.esp
 CLS-OldFriends-OBSE.esp
 RetroHealth.esp
 MagicBasedSkillProgression.esp
