@@ -15331,6 +15331,8 @@ BEGINGROUP: Tamriel Worldspace Modding Project
 TWMP_Summerset.esp
 TWMP_Valenwood_Elsweyr.esp
 ElsweyrPelletine.esp
+Elsweyr Mysteries.esp
+ElsweyrPelletine - Mysteries Patch.esp
 TWMP_Hammerfell.esp
 TWMP_ValenwoodImproved.esp
 TWMP_ValenwoodImproved-Elsweyr Patch.esp
