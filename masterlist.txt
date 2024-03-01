@@ -1,4 +1,4 @@
-﻿/*
+/*
 Masterlist Syntax Notes
 
 Only the basics of the most commonly-used parts of the syntax are covered here. See the BOSS Masterlist Syntax.html documentation file in data/boss-common/ on the BOSS code repository for full details.
@@ -2838,7 +2838,7 @@ MoreMoldyIngredients&Vegeteables.esp
 Q-Core - Icons.esp
   SAY: German version?
 Qarl's Harvest 1.1.esp
-  SAY: 8 ITM and 105 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  DIRTY: 8 ITM, 105 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Qarls_Harvest.esp
   IF CHECKSUM("Qarls_Harvest.esp", 31844E23) DIRTY: 8 ITM, 105 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Qarls_Harvest addon.esp
@@ -5658,7 +5658,7 @@ LunasLoreFriendlyElegance.esp
 Lyn-ClawsOfTheGreyLady.esp
 LSB Skull Weapons.esp
   TAG:{{BASH: Actors.ACBS, Actors.Spells, Actors.Stats, Invent, NPC.Class, Names, NpcFaces, Relev}}
-  SAY: 0 ITM, 2 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  DIRTY: 0 ITM, 2 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 LSB Skull Weapons (Clean).esp
   IF CHECKSUM("LSB Skull Weapons (Clean).esp", 19B24219) DIRTY: 0 ITM, 2 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 0FLeatherSuitV2.esp
@@ -6592,7 +6592,7 @@ The Sword of Truth.esp
 ThiefArmor.esp
 Thieves Guild Armor.esp
 Thori'Dal, The Stars' Furyl - Legends of Azeroth Armory.esp
-  IF CHECKSUM("Thori'Dal, The Stars' Furyl - Legends of Azeroth Armory.esp", D50A68CC) DIRTY: 8 ITM, 0 UDR records. Needs "http://cs.elderscrolls.com/index.php?title=TES4Edit_Cleaning_Guide TES4Edit cleaning".
+  IF CHECKSUM("Thori'Dal, The Stars' Furyl - Legends of Azeroth Armory.esp", D50A68CC) DIRTY: 8 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods".
 Throne Armor.esp
 Throwable kunai.esp
 ThrowableKunai_1C.esp
@@ -10149,7 +10149,8 @@ AkaviriStronghold_1C.esp
   TAG: {{BASH: Actors.ACBS, Actors.Stats, Factions, Graphics, Invent, Relations, Scripts, Sound}}
   INC: Kvatch Rebuilt, Hoarfrost Castle, Midas Magic, Mannimarco Complete, Reneer's Corpse Mod, Unique landscapes, KSE_v3.esp.
   SAY: For compatibility with Knights of the Nine, get the patch: "http://tamriel.ru/7roadsmod/Knights_Patch_02.zip"
-  SAY: Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("7roads.esp", 42B2E669) DIRTY: 1201 ITM, 0 UDR records. Needs TES4Edit cleaning: "http://cs.elderscrolls.com/index.php?title=TES4Edit_Cleaning_Guide"
+  IF CHECKSUM("7roads.esp", 42FB2825) DIRTY: 1237 ITM, 2400 UDR records. Needs TES4Edit cleaning: "http://cs.elderscrolls.com/index.php?title=TES4Edit_Cleaning_Guide"
 7demonicweapons.esp
 
 .LuEmaNarfil Cave of Vampires.esp
@@ -10527,7 +10528,7 @@ ATW_Castle_Vet_v1.3.esp
   IF CHECKSUM("ATW_Castle_Vet_v1.3.esp", AB48455D) DIRTY: 0 ITM, 14 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Auriel's Books.esp
   IF VAR(BC) SAY: Incompatible with Better Cities IC Market District.
-  SAY: Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("Auriel's Books.esp", 4735211A) DIRTY: 21 ITM, 3 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Auriel's_Retreat.esp
   IF CHECKSUM("Auriel's_Retreat.esp", CB6EF46D) || IF CHECKSUM("Auriel's_Retreat.esp", 4446B5C1) DIRTY: 2875 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Auriel's_Retreat Vwalk.esp
@@ -10833,6 +10834,10 @@ HackdirtCaverns.esp
 HackdirtTheDeepOnes.esp
   SAY: Revamp of the older mod HackdirtCaverns.esp, do not use both at the same time.
   IF CHECKSUM("HackdirtTheDeepOnes.esp", 9294634B) DIRTY: 0 ITM, 4 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("HackdirtTheDeepOnes.esp", EED773A7) DIRTY: 0 ITM, 4 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("HackdirtTheDeepOnes.esp", 9B9DB370) DIRTY: 0 ITM, 4 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+// consideration: may8e BOSS can suggest updating to this patch? https://www.nexusmods.com/oblivion/mods/52833?tab=files
+HackdirtTheDeepOnes - Hardcore Addon.esp
 DeepHackdairt.esp
   INC: HackdirtTheDeepOnes.esp and HackdirtCaverns.esp
 
@@ -11290,7 +11295,9 @@ Druid'sGrove.1.2.esp
 Druids Guild Mod.esp
 DruidsTree.esp
   REQ: Shivering Isles
-  SAY: Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("DruidsTree.esp", BEFDE525) DIRTY: 5 ITM, 1 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+DruidsTree_noriver.esp
+  IF CHECKSUM("DruidsTree_noriver.esp", 3F78A06B) DIRTY: 5 ITM, 1 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.
 Deluxe IC Shack.esp
 SYS Patch-Deluxe IC Shack.esp
 Improved IC Shack.esp
@@ -12224,10 +12231,16 @@ Legion Faction Mod.esp
   IF CHECKSUM("Legion Faction Mod.esp", 32E46BF4) DIRTY: 244 ITM, 990 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Legion Forester Outposts.esp
 Legion Hates Bandits x.esp
+
 Legion-occupied Forts.esp
+  IF CHECKSUM("Legion-occupied Forts.esp", 70FFA33B) DIRTY: 12 ITM, 1496 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("Legion-occupied Forts.esp", A5167B00) DIRTY: 12 ITM, 1499 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("Legion-occupied Forts.esp", 27E4C4F2) DIRTY: 12 ITM, 1499 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("Legion-occupied Forts.esp", 12C8E269) DIRTY: 12 ITM, 1499 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Legion-occupied Forts - OOO Patch - Base.esp
 Legion-occupied Forts - OOO Patch - Base + NPC Stats.esp
 Legion-occupied Forts - FCOM.esp
+
 lEichenstamm_Bauernhof.esp
 LFScreenshootersAbyss.esp
 Lost Grove.esp
@@ -15290,7 +15303,7 @@ Tundra Bruma.esp
 Unique Forts Fort Strand.esp
   IF CHECKSUM("Unique Forts Fort Strand.esp", 5AAF40DC) DIRTY: 4 ITM, 35 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Unique Forts Gold Coast.esp
-  IF CHECKSUM("Unique Forts Gold Coast.esp", 99C57EC6) DIRTY: 39 ITM, 217 UDR records. Needs TES4Edit cleaning: "http://cs.elderscrolls.com/index.php?title=TES4Edit_Cleaning_Guide"
+  IF CHECKSUM("Unique Forts Gold Coast.esp", 99C57EC6) DIRTY: 39 ITM, 217 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
  
 BEGINGROUP: Better Forts
 //-----------------------------------------------
@@ -18307,6 +18320,7 @@ CUO_Dwemer.esp
 CUO_FightersGuildContracts_SAFE.esp
   SAY: Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Fighters Guilds Contracts.esp
+  IF CHECKSUM("FightersGuildContracts.esp", BB0D71D0) DIRTY: 28 ITM, 9 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 CUO_MerchantsGuild_SAFE.esp
 CUO_MerchantUpdate_SAFE.esp
 CUO_UnLeveledPotions.esp
