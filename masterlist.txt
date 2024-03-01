@@ -18745,6 +18745,7 @@ Jarol's NPC Leveled Equipment.esp
 Jerall-Pass.esp
   SAY: German mod.
 Jerall View Inn upgrade.esp
+Jeqweq's Prices Overhaul.esp
 Jhaerik's Dungeon Fog Remover.esp
   IF CHECKSUM("Jhaerik's Dungeon Fog Remover.esp", FA68A64E) DIRTY: 0 ITM, 1523 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
 Jhaerik's Dungeon Fog Remover Lite.esp
