@@ -1489,6 +1489,7 @@ BettysJungleAmb.esp
 City_Voices.esp
 Consistent Beggar Voices.esp
 DungeonAMB.esp
+Extended Dialogue.esp
 HBM.esp
 Idle Dialogue.esp
   IF CHECKSUM("Idle Dialogue.esp", F3DDD964) DIRTY: 5 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
