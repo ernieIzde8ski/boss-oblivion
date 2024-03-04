@@ -3472,7 +3472,8 @@ BookTrackerUpdatedv1.1.esp
 Better Saves.esp
   REQ: OBSE
 BetterSaves.esp
-  REQ: OBSE 
+  REQ: OBSE
+CIBLppSupport.esp
 Container Menu Support.esp
 CDM - Shivering Time.esp
   REQ: OBSE 18+
@@ -26853,6 +26854,7 @@ TIE Weapon + Armor Filter.esp
   TAG: {{BASH: Filter, Stats, NoMerge, Deactivate}}
   IFNOT VAR(BP) ERROR: Required Bashed Patch.
 LandMagicPatch.esp
+CIBFilterPatch.esp
 
 EMC2 StreamMusic - Filter.esp
 
