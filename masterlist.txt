@@ -9782,7 +9782,7 @@ Weapon Expansion Pack for Oblivion Nthusiasts.esp
   TAG: {{BASH: Delev, Graphics, Invent, Names, Relev, Scripts, Stats}}
   INC: Mithril and Orcish Weapon Sets v1 and v2, Fine Weapons, Rusty Items
   IF CHECKSUM("Weapon Expansion Pack for Oblivion Nthusiasts.esp", 13F4CF76) DIRTY: 1 ITM, 0 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
-  WARN: Do not use version 1.10, it is bugged and can cause crash to desktop. Upgrade to version 1.11 instead.
+  IF VERSION("Weapon Expansion Pack for Oblivion Nthusiasts.esp", "1.20", <) && IFNOT VERSION("Weapon Expansion Pack for Oblivion Nthusiasts.esp", "1.", =) WARN: Do not use version 1.10, it is bugged and can cause crash to desktop. Upgrade to version 1.11 instead.
 //=======================
 ENDGROUP: Post Overhaul
 
