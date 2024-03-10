@@ -18944,6 +18944,7 @@ book_stat_hacks.esp
 More_Merchant_Gold.esp
 moremerchantmoneyv1.1.esp
 More merchant money 1.1 rus.esp
+More Mythic Dawn Agents.esp
 MWStyleSpriggansV.1.2.esp
 More Lockpicks.esp
   SAY: If using with an overhaul such as OOO (or many other mods) really should use Wrye Bash or you'll have loss of some leveled list changes.
