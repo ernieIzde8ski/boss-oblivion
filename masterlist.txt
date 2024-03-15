@@ -1071,7 +1071,7 @@ OMOBS_FRAN.esp
 MrSiikaRabbitsforFrans.esp
   SAY: Do not use with MMMforFrans. Already integrated.
 //======================================
-ENDGROUP: Initial Fran's files for FCOM
+ENDGROUP: Initial Fran's Files for FCOM
 
 BEGINGROUP: Loading Screen Alternatives
 //======================================
@@ -1387,7 +1387,7 @@ lNorthernLights.esp
 //-----------------------------------
 ENDGROUP: Weather Mods and Overhauls
 
-BEGINGROUP: Water Tweaks
+BEGINGROUP: Water and Lava Tweaks
 //-----------------------------------
 //A sub-category of Base Mods
 //All of these alter water shader rendering settings - no Bash tags are needed
@@ -8525,7 +8525,7 @@ The Arsenal - Leveled Lists for OOO.esp
 //------------------
 ENDGROUP: Post OOO
 
-BEGINGROUP: MMM & FCOM 
+BEGINGROUP: MMM & FCOM
 //----------------------
 //Includes some obsolete files.....just warn they they are severely outdated
 //
@@ -9823,7 +9823,7 @@ CNRP FightersGuild4OOO.esp
 CNRP.esp
   TAG: {{BASH: Invent, Graphics}}
 //===============================================
-ENDGROUP: CNRP (Cyrodiil NPC Remodelling Project
+ENDGROUP: CNRP (Cyrodiil NPC Remodelling Project)
 
 BEGINGROUP: Creatures - New
 //============================
@@ -17800,7 +17800,7 @@ Better Cities - House price patch.esp
 Blue Destiny's Armor.esp
 //======================================
 ENDGROUP: Post City
-ENDGROUP: Landscape and City overhauls 
+ENDGROUP: Landscape and City Overhauls 
 
 BEGINGROUP: Overrides
 //====================
@@ -17891,6 +17891,7 @@ Visually Realistic Lava.esp
 OWCND-Dungeons.esp
 OWCND-Dungeons2.esp
 //------------------------
+ENDGROUP: Lava
 ENDGROUP: Overrides Early
 
 BEGINGROUP: Overrides #
