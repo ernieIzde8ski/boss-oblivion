@@ -3614,6 +3614,7 @@ OblivionReloadedArenaCombat.esp
 ORFlare.esp
 OblivionReloaded.Weather.esp
 ORC.esp
+
 P-Froggys Automatic NPC-Respawner (1).esp
 P-Froggys Automatic NPC-Respawner (2).esp
 P-Froggys Automatic NPC-Respawner (3).esp
@@ -3622,6 +3623,7 @@ P-Froggys Automatic NPC-Respawner.esp
 P1DlookHereYou.esp
 P1DmenuEscape.esp
 PCB.esp
+ProgressTracker.esp
 Put Me In My Place - PlayerInSEWorld.esp
 Purge Cell Buffers - Cell Change.esp
 Purge Cell Buffers - Loading.esp
