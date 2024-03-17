@@ -14411,6 +14411,7 @@ Merged DLCs - OOO.esp
 SkyrimizedFollowersBattlehorn.esp
 SkyrimizedFollowersKnights.esp
 Merged DLCs with BC Overhauled - OOO.esp
+QuestDirections.esp
 Oblivion Uncut.esp
 Oblivion Uncut - OOO Adaptation.esp
 DarbinshireCave-OblivionUncut Patch.esp
