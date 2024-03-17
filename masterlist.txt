@@ -13999,7 +13999,7 @@ WoodlandVillage1.2.esp
 WoodlandVillage, Cobl.esp
 Woodland Refuge.esp
 Woodland Rangers.esp
-  IF CHECKSUM("Woodland Rangers.esp", 491B530A) DIRTY: 180 ITM, 3 UDR records. Needs TES4Edit cleaning: "https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods"
+  IF CHECKSUM("Woodland Rangers.esp", 491B530A) || IF CHECKSUM("Woodland Rangers.esp", 5B4A42BE) WARN: Contains dirty and malformed edits; a cleaned plugin is available here: "https://www.nexusmods.com/oblivion/mods/52833?tab=files"
 Woodland-Rangers_DV.esp
 // Duplicate intended. Below is translated version.
 Woodland-RangersDV.esp
